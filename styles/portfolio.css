@@ -1,3 +1,6 @@
+body {
+  padding: 30px;
+}
 h1 {
   text-align: center;
 }
@@ -10,4 +13,8 @@ h3 {
 .cool {
   text-decoration: underline;
   padding: auto;
+}
+.wrap {
+  margin-bottom: 45px;
+
 }
