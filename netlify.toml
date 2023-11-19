@@ -1,3 +1,4 @@
-[build]
-  command = "echo 'No build command specified'"
-  publish = "work.html"
+[[redirects]]
+  from = "/*"
+  to = "/work.html"
+  status = 200
