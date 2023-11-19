@@ -18,6 +18,15 @@ body {
   gap: 30px;
   padding: 50px;
 }
+@media (max-width: 768px) {
+  .wrap2 {
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+} 
 
 .wrap4 {
   padding: 12px;
@@ -38,7 +47,16 @@ body {
   margin: auto;
   
 }
-
+@media (max-width: 768px) {
+  .wrap3,.wrap5 {
+    width: 100%;
+  }
+  .wrap6 {
+    width: 80%;
+    border-radius: 15px;
+  }
+  
+} 
 .wrap3 {
   width: 45%;
 }
