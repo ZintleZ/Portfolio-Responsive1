@@ -113,3 +113,14 @@ nav li.active a {
 nav :hover {
   color: var(--branding-color);
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
