@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=PT+Serif&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+
 body {
-  padding: 30px;
+  padding: 30px 0;
+  font-family: Raleway, serif;
 }
 
 .cool {
@@ -123,4 +126,105 @@ footer .email-link {
 
 footer .email-link:hover {
   color: var(--branding-color);
+}
+
+.upper-div {
+  padding: 80px 0;
+  text-align: center;
+  background-color: aliceblue;
+  margin-bottom: 50px;
+}
+
+.body {
+  position: grid;
+  padding: 30px;
+}
+
+.btn {
+  border-color: #6f42c1;
+  background-color: white;
+  border-radius: 10px;
+  color: #6f42c1;
+  padding: 25px;
+  margin-top: 40px;
+  font-size: large;
+  padding: 25px 40px;
+}
+
+.btn:hover, .upper-div .btn:hover, .work .btn:hover {
+  border-color: #6f42c1;
+  background-color: rgb(231, 223, 223);
+  border-radius: 10px;
+  color: #6f42c1;
+  font-size: large;
+  padding: 25px 40px;
+
+} 
+
+.wrap3 h1 {
+  margin-bottom: 35px;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.upper-div h1, h3 {
+  padding-bottom: 25px;
+  font-weight: bolder;
+}
+.upper-div h2 {
+  padding-bottom: 25px;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.upper-div .btn, .work .btn {
+  background-color: #6f42c1;
+  color: white;
+  font-size: large;
+  padding: 25px 40px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 35px;
+  background-color: aliceblue;
+  margin: 0 75px;
+  border-radius: 10px;
+}
+
+.work div h1 {
+  margin-bottom: 15px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.footer {
+  display: grid;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.footer div p {
+  background-color: aliceblue;
+  color: #6f42c1;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.footer div p:hover {
+  background-color: #6f42c1;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
 }
