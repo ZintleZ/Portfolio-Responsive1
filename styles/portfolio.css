@@ -222,7 +222,7 @@ footer .email-link:hover {
   margin-top: 50px;
 }
 
-.footer div p {
+.footer div a {
   background-color: aliceblue;
   color: #6f42c1;
   padding: 10px 15px;
@@ -230,7 +230,7 @@ footer .email-link:hover {
   cursor: pointer;
 }
 
-.footer div p:hover {
+.footer div a:hover {
   background-color: #6f42c1;
   color: white;
   padding: 10px 15px;
